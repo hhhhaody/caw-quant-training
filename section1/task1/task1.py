@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def histohour(fsym, tsym, start_time, end_time, e):
-    fsym, tsym, start_time, end_time, e = 'BTC', 'USDT', '2017-04-01', '2020-04-01', 'binance'
+#     fsym, tsym, start_time, end_time, e = 'BTC', 'USDT', '2017-04-01', '2020-04-01', 'binance'
     start = datetime.datetime.strptime(
         start_time, "%Y-%m-%d").replace(tzinfo=datetime.timezone.utc).timestamp()
     end = datetime.datetime.strptime(
