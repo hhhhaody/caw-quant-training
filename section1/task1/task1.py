@@ -54,7 +54,7 @@ class CryptoCompare:
         dfs.insert(6, 'Datetime', time)
         dfs = dfs.rename({'volumefrom':'Volume','volumeto':'Base Volume'}, axis = 1)
         dfs['Datetime'] = pd.to_datetime(dfs['Datetime'],unit = 's')
-        dfs.to_csv('section1/task1/histo.csv', index = 0)
+        dfs.to_csv('section1/task1/HistoData.csv', index = 0)
         return
 
     @staticmethod
